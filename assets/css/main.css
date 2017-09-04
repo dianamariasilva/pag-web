@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Lobster+Two|Merriweather');
+.welcome{
+  font-family: 'Merriweather', serif;
+  padding-bottom: 20px;
+  font-size: 250%;
+}
+
+.meet, .services, .titulos, .black{
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.black{
+  font-size: 120%;
+}
+
+.meet{
+  font-size: 450%;
+}
+.services{
+  font-size: 280%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.texto{
+  padding-bottom: 50px;
+  font-family: 'Lobster Two', cursive;
+  font-size: 180%;
+  color: grey;
+}
+
+.texto2{
+  font-family: 'Lobster Two', cursive;
+  font-size: 130%;
+  color: grey;
+}
+
+.servicio{
+  padding-bottom: 30px;
+}
+
+#startBstp{
+	font-family: 'Kaushan Script', cursive;
+	color: #EFC02D;
+}
+.naranja{
+  background-color: #EFC02D;
+  border-bottom: #EAE9E4 6px solid;
+}
+.navbar, .navbar-inverse, .navbar-fixed-top{
+  background-color: #EFC02D;
+  border-bottom: #EAE9E4 6px solid; 
+}
+.navbar-toggle{
+  background-color: #EFC02D;
+  border-bottom: #EAE9E4 6px solid;
+}
+.barra{
+	margin-top: 20px;
+	color: white;
+}
+
+.navbar-header{
+	position: fixed;
+	width: 100%;
+	background-color: #524D40;
+}
+.ultm{
+  background-color: #EFC02D;
+  height: 140px;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  font-weight: bold;
+}
+#section0 {
+  	padding-top:100px;
+  	height:100%;
+  	color: #fff; 
+  	background-image: url(../img/header-bg.jpg);
+  	background-size: contain;
+  	text-align: center;
+    padding-bottom: 150px;
+}
+.primer{
+ 	margin-top: 100px;
+}
+
+.btn1{
+	margin-top: 50px;
+	color: white;
+	background-color: #EFC02D;
+}
+
+.gris{
+	background-color: #524D40;
+}
+
+#section1 {
+	padding-top:50px;
+	height:100%;
+	color: black;
+	background-color: white;
+  padding-bottom: 40px;
+}
+
+#section2 {
+	padding-top:50px;
+	height:100%;
+  color: black;
+  background-color: #DDDCD5;;
+  height: 100%;
+}
+
+.candado{
+  margin-right: 0;
+}
+
+.titulo{
+  font-weight: bold;
+}
+
+.fondoimg{
+  padding-bottom: 30px;
+}
+.titulos{
+  padding-bottom: 20px;
+}
+.amarillo{
+  background-color: white;
+  color: white;
+  padding: 30px;
+  background-color: #EFC02D;
+}
+
+.about{
+  padding-top: 100px;
+}
+
+.parrabout{
+  padding-bottom: 30px;
+}
+
+.imgSec4{
+  border: #EAE9E4 6px solid;
+  width: 80%;
+  margin-top: 30px;
+}
+
+#section3{
+  height: 100%;
+  padding-bottom: 80px;
+  background-color: white;
+}
+.icons{
+  margin-left: 10px; 
+  margin-right: 10px;
+}
+
+.parr2{
+  margin: 10px 40px 0px 40px;
+}
+
+.publicidad{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#section4{
+  background-color: #DDDCD5;
+  padding: 50px;
+}
+
+#section5{
+  background-image: url(../img/map-image.png);
+  background-color: black;
+  padding-top: 120px;
+  height: 100%;
+  padding-bottom: 120px;
+}
+
+.formulario{
+  margin-left: 60px;
+  padding-right: 130px;
+}
+
+#send{
+  background-color: #EFC02D;
+}
+.contactus{
+  color: white;
+  padding-bottom: 50px;
+}
+
+footer {
+  text-align: center;
+  height: 70px;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.foot1{
+  color: black;
+  padding-top: 20px;
+}
+
+.foot2{
+  color: #EFC02D;
+  padding-top: 20px;
+}
