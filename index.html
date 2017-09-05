@@ -5,6 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1">
 	<title>Proyecto 1 Sprint 4</title>
+	<script src="assets/js/sweetalert.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/sweetalert.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -54,7 +56,8 @@
 		<div class="container container-fluid text-center primer">
 			<h3 class="welcome"><em>Welcome to our studio!</em></h3>
 			<h1 class="meet">IT'S NICE TO MEET YOU</h1>
-			<a class="btn btn1" href="#">TELL ME MORE</a>
+			<input type="submit" value="TELL ME MORE" style="" class="boton_2" />
+	
 		</div>		
 	</section>
 	<section id="section1">
@@ -89,7 +92,7 @@
 		<p class="text-center texto2">lorem ipsum dolor sit amet conseccturr</p>
 		<div class="row text-center">
   			<div class="col-sm-6 col-md-4">
-   			    <div class="thumbnail">
+   			    <div class="thumbnail atras">
       				<img src="assets/img/roundicons.png" alt="...">
      				<div class="caption">
         			<h3 class="titulos">Round icons</h3>
@@ -107,7 +110,7 @@
     			</div>
   			</div>
   			<div class="col-sm-6 col-md-4">
-   			    <div class="thumbnail">
+   			    <div class="thumbnail atras">
       				<img src="assets/img/treehouse.png" alt="...">
      				<div class="caption">
         			<h3 class="titulos">Treehouse</h3>
@@ -118,7 +121,7 @@
 		</div>
 		<div class="row text-center">
   			<div class="col-sm-6 col-md-4">
-   			    <div class="thumbnail">
+   			    <div class="thumbnail atras">
       				<img src="assets/img/golden.png" alt="...">
      				<div class="caption">
         			<h3 class="titulos">Golden</h3>
@@ -127,7 +130,7 @@
     			</div>
   			</div>
   			<div class="col-sm-6 col-md-4">
-   			    <div class="thumbnail">
+   			    <div class="thumbnail atras">
       				<img src="assets/img/escape.png" alt="...">
      				<div class="caption">
         			<h3 class="titulos">Escape</h3>
@@ -136,7 +139,7 @@
     			</div>
   			</div>
   			<div class="col-sm-6 col-md-4">
-   			    <div class="thumbnail">
+   			    <div class="thumbnail atras">
       				<img src="assets/img/dreams.png" alt="...">
      				<div class="caption">
         			<h3 class="titulos">Dreems</h3>
@@ -279,11 +282,10 @@
 		<div class="row">
 			<div class="col-md-6">
 				<form id="formid">
-				    <div id="ok"></div>
 				    <p><input type="text" name="name" id="name" class="formulario" placeholder="YOUR NAME*"/></p>
 				    <p><input type="text" name="email" id="email" class="formulario" placeholder="YOUR EMAIL*"/></p>
 				    <p><input type="text" name="phone" id="phone" class="formulario" placeholder="YOUR PHONE*" /></p>
-				    <input type="submit" value="Enviar" style=" margin-left:565px;" id="send" />
+				    <input type="submit" value="SEND MESSAGE" style=" margin-left:565px;" id="send" class="boton_2" />
 				</form>
 			</div>
 			<div class="col-md-6">
