@@ -5,6 +5,11 @@
   font-size: 250%;
 }
 
+a:hover{
+  background-color: black;
+  color: white;
+}
+
 .meet, .services, .titulos, .black{
   font-family: 'Archivo Black', sans-serif;
 }
@@ -108,8 +113,12 @@
 	padding-top:50px;
 	height:100%;
   color: black;
-  background-color: #DDDCD5;;
+  background-color: #DDDCD5;
   height: 100%;
+}
+
+.atras{
+  background-color: #DDDCD5;
 }
 
 .candado{
@@ -180,8 +189,8 @@
 }
 
 .formulario{
-  margin-left: 60px;
-  padding-right: 130px;
+  margin-left: 80px;
+  padding-right: 150px;
 }
 
 #send{
@@ -209,3 +218,22 @@ footer {
   color: #EFC02D;
   padding-top: 20px;
 }
+
+.boton_2{
+    text-decoration: none;
+    font-family: arial;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 50px;
+    font-weight: 800;
+
+    color: white;
+    background-color: #EFC02D;
+}
+  .boton_2:hover{
+    color: #EFC02D;
+    background-color: white;
+    text-decoration: none;
+  }
