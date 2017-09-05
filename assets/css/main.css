@@ -5,6 +5,11 @@
   font-size: 250%;
 }
 
+a:hover{
+  background-color: black;
+  color: white;
+}
+
 .meet, .services, .titulos, .black{
   font-family: 'Archivo Black', sans-serif;
 }
